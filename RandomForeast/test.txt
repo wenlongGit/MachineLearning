@@ -1,0 +1,91 @@
+If	(feature	1	<=	0.0)
+			If	(feature	4	<=	4.0)
+				If	(feature	3	<=	6.0)
+					If	(feature	15	<=	0.0)
+						If	(feature	12	<=	350.0)
+							Predict:	0.0
+						Else	(feature	12	>	350.0)
+							Predict:	0.0
+					Else	(feature	15	>	0.0)
+						If	(feature	12	<=	350.0)
+							Predict:	0.0
+						Else	(feature	12	>	350.0)
+							Predict:	0.0
+				Else	(feature	3	>	6.0)
+					If	(feature	4	<=	1.0)
+						If	(feature	4	<=	0.0)
+							Predict:	0.0
+						Else	(feature	4	>	0.0)
+							Predict:	0.0
+					Else	(feature	4	>	1.0)
+						If	(feature	4	<=	2.0)
+							Predict:	1.0
+						Else	(feature	4	>	2.0)
+							Predict:	0.0
+			Else	(feature	4	>	4.0)
+				If	(feature	4	<=	9.0)
+					If	(feature	39	<=	10.0)
+						If	(feature	4	<=	6.0)
+							Predict:	1.0
+						Else	(feature	4	>	6.0)
+							Predict:	1.0
+					Else	(feature	39	>	10.0)
+						If	(feature	2	<=	2.0)
+							Predict:	1.0
+						Else	(feature	2	>	2.0)
+							Predict:	0.0
+				Else	(feature	4	>	9.0)
+					If	(feature	4	<=	10.0)
+						If	(feature	13	<=	3294.0)
+							Predict:	0.0
+						Else	(feature	13	>	3294.0)
+							Predict:	0.0
+					Else	(feature	4	>	10.0)
+						If	(feature	4	<=	18.0)
+							Predict:	1.0
+						Else	(feature	4	>	18.0)
+							Predict:	1.0
+		Else	(feature	1	>	0.0)
+			If	(feature	4	<=	4.0)
+				If	(feature	1	<=	3.0)
+					If	(feature	31	<=	3.0)
+						If	(feature	5	<=	19.0)
+							Predict:	1.0
+						Else	(feature	5	>	19.0)
+							Predict:	1.0
+					Else	(feature	31	>	3.0)
+						If	(feature	1	<=	1.0)
+							Predict:	1.0
+						Else	(feature	1	>	1.0)
+							Predict:	1.0
+				Else	(feature	1	>	3.0)
+					If	(feature	10	<=	0.0)
+						If	(feature	1	<=	4.0)
+							Predict:	0.0
+						Else	(feature	1	>	4.0)
+							Predict:	1.0
+					Else	(feature	10	>	0.0)
+						If	(feature	31	<=	3.0)
+							Predict:	1.0
+						Else	(feature	31	>	3.0)
+							Predict:	1.0
+			Else	(feature	4	>	4.0)
+				If	(feature	4	<=	9.0)
+					If	(feature	5	<=	22.0)
+						Predict:	1.0
+					Else	(feature	5	>	22.0)
+						If	(feature	3	<=	11.0)
+							Predict:	1.0
+						Else	(feature	3	>	11.0)
+							Predict:	1.0
+				Else	(feature	4	>	9.0)
+					If	(feature	4	<=	10.0)
+						If	(feature	3	<=	3.0)
+							Predict:	1.0
+						Else	(feature	3	>	3.0)
+							Predict:	1.0
+					Else	(feature	4	>	10.0)
+						If	(feature	4	<=	18.0)
+							Predict:	1.0
+						Else	(feature	4	>	18.0)
+							Predict:	1.0
