@@ -1,8 +1,7 @@
 # encoding=utf-8
 
 file = open("text/diu_videotitle.txt")
-
-
-lines = file.readlines(100000)
-for line in lines:
-    print line.split("\t",1)[0]
+n=1
+for line in file:
+    n=n+1
+    print str(n) + " " + line.split("\t",1)[0] + " " + line.split("\t",1)[1]
